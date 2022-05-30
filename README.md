@@ -8,8 +8,7 @@ HTML-CSS-Data-Visualisation
 
 Data is more powerful when we share it with others! Let's use what we've learned about HTML and CSS to create a dashboard featuring the analysis that we've done, as captured in the following image:
 
-[  ![Images/landingResize.png](Images/landingResize.png)
-](https://birmingham.bootcampcontent.com/university-of-birmingham/UBHM-VIRT-DATA-PT-02-2022-U-LOL/-/raw/main/11-Web/HomeWork/Instructions/Images/landingResize.png)![image](https://user-images.githubusercontent.com/67019030/170983120-722813fb-dc0c-4c8d-801d-0b3e370f4d1b.png)
+(https://birmingham.bootcampcontent.com/university-of-birmingham/UBHM-VIRT-DATA-PT-02-2022-U-LOL/-/raw/main/11-Web/HomeWork/Instructions/Images/landingResize.png)![image](https://user-images.githubusercontent.com/67019030/170983120-722813fb-dc0c-4c8d-801d-0b3e370f4d1b.png)
 
 ## Before You Begin
 
