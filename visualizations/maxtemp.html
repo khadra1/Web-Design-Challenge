@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Max Temperature page</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+    <!-- Navigation bar/dropdown menu -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav" style="margin-left: 15px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Plots</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">Humidity</a> </li>
+                            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Max Speed -->
+    <div class="row content">
+        <div class="col-sm-12 col-md-8 col-lg-8 bg-white m-5 mt-lg-5">
+            <h1 class="title">Max Temperature</h1>
+            <hr>
+            <img src="../assets/images/Fig1.png" alt="Latitude vs Max Temperature" class="img-fluid">
+            <p style="font-size: 20px;">As expected, the weather becomes significantly warmer as one approaches
+                the equator (0 Deg. Latitude). More interestingly, however, is the fact that the
+                southern hemisphere tends to be warmer this time of year than the northern
+                hemisphere. This may be due to the tilt of the earth at the time of the year
+                this data was gathered.</p>
+        </div>
+
+        <!-- Visualizations -->
+        <div class="col-lg-3">
+            <div class="box p-3 bg-white m-3 mt-lg-5">
+                <h2 class="title">Visualizations</h2>
+                <hr>
+                <div class="row row-cols-4 row-cols-lg-2 g-2 g-lg-3" style="padding-top: 10px;">
+                    <div class="col">
+                        <div class="p-3 green-border bg-light">
+                            <a href="maxtemp.html">
+                                <img src="../assets/images/Fig1.png" alt="Max Temperature Plot" class="img-fluid" />
+                            </a>
+                        </div>
+                        <figcaption><em>vs Max Temperature</em></figcaption>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <a href="humidity.html">
+                                <img src="../assets/images/Fig2.png" alt="Humidity Plot" class="img-fluid">
+                            </a>
+                        </div>
+                        <figcaption><em>vs Humidity</em></figcaption>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <a href="cloudiness.html">
+                                <img src="../assets/images/Fig3.png" alt="Cloudiness Plot" class="img-fluid"></a>
+                        </div>
+                        <figcaption><em>vs Cloudiness</em></figcaption>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light">
+                            <a href="windspeed.html">
+                                <img src="../assets/images/Fig4.png" alt="Windspeed Plot" class="img-fluid"></a>
+                        </div>
+                        <figcaption><em> vs Wind Speed</em></figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- footer stretched to the bottom of the screen -->
+        <div class="flex-wrapper bg-light" style="height: 60px;"></div>
+        <div class="footer bg-light" style="margin-left: 5px;">Copyright &copy; Khadra Absughe 2022</div>
+    </footer>
+
+</body>
+</html>
