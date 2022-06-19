@@ -1,0 +1,125 @@
+/* Navigation bar */
+.navbar-brand {
+    background-color: #4aaaa5 !important;
+    color: white !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    margin-right: 5px;
+}
+
+/* Body */
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: white !important;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4 {
+    color: #4aaaa5 !important;
+    font-weight: bold !important;
+}
+
+
+/* Green border on visualization that is being viewed/active state */
+.col
+.green-border {
+    border: 1px solid #4aaaa5;
+}
+
+
+
+/* Small device screens style settings */
+@media only screen and (max-device-width: 480px) {
+
+
+    .navbar.navbar-expand-lg.bg-white {
+        background-color: #4aaaa5 !important;
+        margin-right: -35px !important;
+        margin-left: -10px !important;
+        margin-bottom: 1px !important;
+        
+    }
+
+    .navbar-collapse.justify-content-end.collapse.show {
+        background-color: white !important;
+        outline-color: white !important;
+        margin-right: -15px !important;
+        margin-left: -3px !important;
+        margin-bottom: -10px !important;
+    }
+
+    .row{
+        background-color: white !important;
+        margin-right: -30px !important;
+    }
+    
+    
+    /* Media only pages paragraph padding on left */
+    p {
+        padding-left: 5px;
+    }
+
+
+    .col-sm-12.col-md-8.col-lg-8.bg-white.m-5.mt-lg-5 {
+        margin-right: 100px !important;
+        
+    }
+    .col-sm-12.col-md-8.col-lg-6{
+        margin-left: 90px !important;
+    }
+
+   .row.content{
+       background-color: white !important;
+    }
+
+
+    h1 {
+        padding-left: 0.6cm !important;
+        padding-bottom: -10px !important;
+    }
+
+    h2 {
+        padding-left: 10px !important;      
+    }
+
+    .row.row.row-cols-4.row-cols-lg-2.g-2.g-lg-3 {
+        margin-right:30px !important ;
+    }
+
+    body {
+        background-color: white !important;
+        height: 100%;
+        overflow: hidden;
+        padding: 0px !important;
+       } 
+
+    .box {
+
+        margin-right: 10px !important;
+        margin-left: 40px !important;  
+    }
+    .p-3{
+
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+
+
+    /* Footer */
+   .flex-wrapper {
+    background-color:white !important;
+    margin-right: -15px !important; 
+    }
+   
+    .footer{
+    background-color: white !important;
+    margin-left: 10px !important;
+    margin-right: -15px !important;
+    }
+
+}

@@ -1,5 +1,5 @@
 # Web-Design-Challenge
-HTML-CSS-Data-Visualisation
+HTML-CSS-Data-Visualization
 
 
 # Unit 11 Homework: Web Visualization Dashboard 
