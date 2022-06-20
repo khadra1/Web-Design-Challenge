@@ -1,6 +1,8 @@
 # Web-Design-Challenge
 HTML-CSS-Data-Visualization
 
+# Latitude Website has been Deployed to GitHub Pages: https://khadra1.github.io/web-design-challenge/
+
 
 # Unit 11 Homework: Web Visualization Dashboard 
 
